@@ -9,6 +9,6 @@ The images directory contains .png files of trash scraps. These are assembled in
 
 The SQLite file contains the text messages. It was populated by a Java backend that operated a cell modem for the telephone number.
 
-index.html is the entrance to the piece. It was what I ran when I started the piece in the morning. It will load stage.php, which pulls a random text from the database to display on screen. Stage.php will reload with random texts. If a new text arrives in the database, it will display it as the next message before returning to a random selection. 
+index.html is the entrance to the piece. It was what I ran when I started the piece in the morning. It will load first.php, which preps the database, and stage.php, which pulls a random text from the database to display on screen. Stage.php will reload with random texts. If a new text arrives in the database, it will display it as the next message before returning to a random selection. 
 
 You can read more about this piece in my portfolio: http://aplot.com/portfolio
