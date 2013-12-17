@@ -1,0 +1,144 @@
+@charset "utf-8";
+/* CSS Document */
+
+html{
+	background: #036;	
+}
+
+.letter{
+	position: relative;
+	border: 1px dashed white;
+	float: left;
+	height: 180px
+}
+
+img.deg0{
+	-moz-animation-name: enter;
+	-moz-animation-duration: 2s;
+	-moz-animation-timing-function: linear;
+	-moz-animation-iteration-count: 1;
+}
+
+img.deg40{
+	-moz-animation-name: enter40;
+	-moz-animation-duration: 1.5s;
+	-moz-animation-timing-function: linear;
+	-moz-animation-iteration-count: 1;
+}
+
+img.deg90{
+	-moz-animation-name: enter90;
+	-moz-animation-duration: 2.2s;
+	-moz-animation-timing-function: linear;
+	-moz-animation-iteration-count: 1;
+}
+
+img.deg140{
+	-moz-animation-name: enter140;
+	-moz-animation-duration: 1.3s;
+	-moz-animation-timing-function: linear;
+	-moz-animation-iteration-count: 1;
+}
+
+img.deg180{
+	-moz-animation-name: enter180;
+	-moz-animation-duration: 1.7s;
+	-moz-animation-timing-function: linear;
+	-moz-animation-iteration-count: 1;
+}
+
+img.deg0a{
+	-moz-animation-name: enter;
+	-moz-animation-duration: 2.5s;
+	-moz-animation-timing-function: linear;
+	-moz-animation-iteration-count: 1;
+}
+
+img.deg40a{
+	-moz-animation-name: enter40;
+	-moz-animation-duration: 1.5s;
+	-moz-animation-timing-function: linear;
+	-moz-animation-iteration-count: 1;
+}
+
+img.deg90a{
+	-moz-animation-name: enter90;
+	-moz-animation-duration: 1.2s;
+	-moz-animation-timing-function: linear;
+	-moz-animation-iteration-count: 1;
+}
+
+img.deg140a{
+	-moz-animation-name: enter140;
+	-moz-animation-duration: 1.7s;
+	-moz-animation-timing-function: linear;
+	-moz-animation-iteration-count: 1;
+}
+
+img.deg180a{
+	-moz-animation-name: enter180;
+	-moz-animation-duration: 2.3s;
+	-moz-animation-timing-function: linear;
+	-moz-animation-iteration-count: 1;
+}
+
+img.deg0b{
+	-moz-animation-name: enter;
+	-moz-animation-duration: 1.2s;
+	-moz-animation-timing-function: linear;
+	-moz-animation-iteration-count: 1;
+}
+
+img.deg40b{
+	-moz-animation-name: enter40;
+	-moz-animation-duration: 2.5s;
+	-moz-animation-timing-function: linear;
+	-moz-animation-iteration-count: 1;
+}
+
+img.deg90b{
+	-moz-animation-name: enter90;
+	-moz-animation-duration: 1.9s;
+	-moz-animation-timing-function: linear;
+	-moz-animation-iteration-count: 1;
+}
+
+img.deg140b{
+	-moz-animation-name: enter140;
+	-moz-animation-duration: 1.2s;
+	-moz-animation-timing-function: linear;
+	-moz-animation-iteration-count: 1;
+}
+
+img.deg180b{
+	-moz-animation-name: enter180;
+	-moz-animation-duration: 1.3s;
+	-moz-animation-timing-function: linear;
+	-moz-animation-iteration-count: 1;
+}
+
+
+@-moz-keyframes enter{
+	0% {-moz-transform: rotate(-250deg) translate(2000px, 2050px);}
+	100% {-moz-transform: rotate(0deg) translate(0, 0);}
+}
+
+@-moz-keyframes enter40{
+	0% {-moz-transform: rotate(400deg) translate(2000px, 2050px);}
+	100% {-moz-transform: rotate(40deg) translate(0, 0);}
+}
+
+@-moz-keyframes enter90{
+	0% {-moz-transform: rotate(-300deg) translate(2000px, 2050px);}
+	100% {-moz-transform: rotate(90deg) translate(0, 0);}
+}
+
+@-moz-keyframes enter140{
+	0% {-moz-transform: rotate(300deg) translate(2000px, 2050px);}
+	100% {-moz-transform: rotate(140deg) translate(0, 0);}
+}
+
+@-moz-keyframes enter180{
+	0% {-moz-transform: rotate(-220deg) translate(2000px, 2050px);}
+	100% {-moz-transform: rotate(180deg) translate(0, 0);}
+}
